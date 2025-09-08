@@ -19,8 +19,8 @@ env/
 uploads/
 outputs/
 
-# Model files
-*.pth
+
+
 
 # Jupyter Notebook
 .ipynb_checkpoints

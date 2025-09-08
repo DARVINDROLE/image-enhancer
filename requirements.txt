@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+torch
+torchvision
+torchaudio
+git+https://github.com/xinntao/BasicSR.git
+git+https://github.com/xinntao/Real-ESRGAN.git
+pillow
+opencv-python
+numpy

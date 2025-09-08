@@ -4,10 +4,11 @@ torch==2.2.2+cpu
 torchvision==0.17.2+cpu
 torchaudio==2.2.2+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
+realesrgan==0.3.0
+basicsr==1.4.2
+pillow
+opencv-python
+numpy
 git+https://github.com/xinntao/BasicSR.git
 git+https://github.com/xinntao/Real-ESRGAN.git
 git+https://github.com/JingyunLiang/SwinIR.git
-gradio 
-pillow 
-opencv-python 
-numpy

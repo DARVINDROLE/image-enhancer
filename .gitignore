@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Uploads and outputs
+uploads/
+outputs/
+
+# Model files
+*.pth
+
+# Jupyter Notebook
+.ipynb_checkpoints

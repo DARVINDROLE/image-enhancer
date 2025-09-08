@@ -1,10 +1,7 @@
 fastapi
 uvicorn
-torch==2.2.2
-torchvision==0.17.2
-torchaudio==2.2.2
-realesrgan
-basicsr
-pillow
-opencv-python
-numpy
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+git+https://github.com/xinntao/BasicSR.git
+git+https://github.com/xinntao/Real-ESRGAN.git
+git+https://github.com/JingyunLiang/SwinIR.git
+gradio pillow opencv-python numpy
